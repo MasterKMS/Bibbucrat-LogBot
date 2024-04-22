@@ -9,8 +9,8 @@ from googletrans import Translator
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = telebot.TeleBot(os.getenv("TOKEN"))
-
+#bot = telebot.TeleBot(os.getenv("TOKEN"))
+bot = telebot.TeleBot("6448510887:AAEsej0QLc6aulovCHpgAMCIlG3Vb78s0EM")
 bot_id = bot.get_me().id
 
 
